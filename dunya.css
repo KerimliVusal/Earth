@@ -1,0 +1,36 @@
+@charset "utf 8";
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(glob/uzay.jpg);
+    background-size: cover;
+}
+.dunya{position: relative;
+    width: 480px;
+    height: 480px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.golge{
+    position: absolute;
+    width: 480px;
+    height: 480px;
+    box-shadow:300px 30px 20px rgba(10, 16, 17, 0.596) inset;
+}
+.xerite{ 
+    width: 480px;
+    height: 500px;
+    background-image: url(glob/dunya.jpg);
+    background-size: cover;
+    animation: donus 80s linear 0s infinite;
+}
+@keyframes donus{
+
+    from{}
+    to{background-position: -1000px 0;}
+}
